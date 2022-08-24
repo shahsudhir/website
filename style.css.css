@@ -1,0 +1,207 @@
+body
+{
+	margin: 0px;
+	padding: 0px;/*generate space around element*/
+    font-family: Arial;
+    background-color: yellow;/*adds background color yellow*/
+	letter-spacing: 2px;/* gives letter spacing of 2px*/	
+}
+.menu li a{ 
+    text-decoration: none;
+    color: lightyellow;/*for list items it provides light yellow color*/
+    letter-spacing: 1px;/* gives letter spacing of 1px*/
+    text-transform: uppercase;/*transform all letters to uppercase*/
+    display: block;/*dispaly in form of block*/
+    padding: 0 25px;
+    font-size: 14px;
+    list-style: 30px;
+    position: relative;
+    z-index: 1;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.custom-padding
+{
+    padding-top: 25px;
+}
+nav{
+    position: relative;
+    padding: 10px 20px 10px 10px ;
+    /* This indicates top padding is 10px,right is 20px,bottom is 10px and left padding 10px*/
+    text-align: right;
+    z-index: 1;/*stack order of element*/
+    background-color: lightslategray;
+    margin: 0 auto;
+    width: calc(100%-60px);
+}/*provides hover effect in naviagtion bar*/
+.menu li a:hover{
+    background: mediumseagreen;
+    color: lime;
+}
+nav:before{
+    position: absolute;
+    content: '';
+    left:0;
+    top: 100%;
+    border-top: 10px solid blue;
+    border-right: 10px solid blue;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+nav:after{
+    position: absolute;
+    content: '';
+    left:0;
+    top: 100%;
+    border-top: 10px solid violet;
+    border-right: 10px solid violet;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+.intro p/*adds black color to text*/
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    text-decoration: solid;
+    margin-left: 40px;
+    font-size: 60px;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-top: 275px;
+}
+.bottom-right{/*displays on the bottom right corner in black color*/
+position: absolute;
+bottom: 8px;
+right: 16px;
+color: black;
+position: absolute;
+font-size: 20px;
+display: inline;
+font-weight: bolder;
+text-decoration: blanchedalmond;
+}
+.social p/*adds black color to text with font family cursive bold font weight and having width 50%*/
+{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    text-align: justify;
+    color: blueviolet;
+    margin-left: 20px;
+}
+.profile/* define profile of about page*/
+{
+  float: top; 
+  float: right; 
+  background-attachment: fixed;
+}
+.info/* define info of about page*/
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  text-decoration: solid;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.about p/* define about of about page*/
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 80%;
+    text-align: justify;
+    color: darkblue;
+    margin-left: 20px;
+}
+.qualification/* define qualification of about page*/
+{
+    font-size:20px;
+    font-weight:bold;
+    margin-left:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 10vh;
+}
+caption
+{
+    font-size: 20px;
+    font-weight: normal;
+}
+tr:nth-child(even)
+{
+    background-color: beige;
+}
+tr:nth-child(odd)
+{
+   background-color: bisque; 
+}
+.experiences p/*experiences of about page*/
+{
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.experiences li
+{
+	font-size: 20px;
+	display: block;
+	margin-left: 20px;
+	margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills p/*define skills of about page*/
+{
+   font-size: 20px;
+   margin-left: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills li
+{ 
+    
+	font-size: 20px;
+	display: block;
+	margin-left: 20px;
+	margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.goals p/*define goals of about page*/
+{
+   font-size: 20px;
+   margin-left: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.goals li
+{
+    font-size: 20px;
+	display: block;
+	margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.container2/*define body of contact form page*/
+{
+    width: 80%;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 10px;
+}
+
+    
+
+.gotopbtn{
+    position:fixed;
+    width: 50px;
+    height:50px;
+    background-color:#095729;
+    bottom:40px;
+    right:70px;
+    text-decoration: none;
+    text-align:center;
+    line-height:50px;
+    color:whitesmoke;
+    font-size: 22px;
+
+}

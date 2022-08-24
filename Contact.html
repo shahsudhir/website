@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--documentation indicates html of version 5-->
+<html>
+    <!--allows web browser to work in html format-->
+    <head>
+        <!--starter of head-->
+        <title>Contact form</title>
+        <!--provides title to the web page-->
+        <
+        <meta name="viwport" content="width=100%">
+        <meta name="author" content="Sudhir kumar shah">
+        <meta name="description" Content="Contact form">
+        <!--meta is used to control page dimension and scaling-->
+        <link rel="stylesheet" href="style.css">
+        <!--helps to link between html and css page-->
+        <style>
+            body{
+                background-color: coral;
+                text-aling:center;
+            }
+        </style>
+        
+    </head>
+    <div class="custom-padding">
+        <!--div tag group together html element and apply css styles to 
+        other element at once-->
+        <nav>
+            <!--creates navigation bar-->
+            <ul class="menu">
+                <li><a href="HOME.html">HOME</a></li>
+                <!--a is hyperlink which is used to navigates from one 
+                page to another-->
+                <li><a href="ABOUT.html">ABOUT</a></li>
+                <li><a href="BLOG.html">BLOG</a></lI>
+                 <li><a href="Contact.html">CONTACT</a></li>
+                 <li><a href="RESEARCH SECTION.html">RESEARCH SECTION</a></lI>   
+            </ul>
+            <!--close of unoder list-->
+        </nav>
+        <!--close of nav-->
+    </div>
+    <!--close of div-->
+    <div class="container">
+        <form name="myform" onsubmit="validateform()">
+            <!--creating form -->
+        <h1>Fill your Details</h1>
+        <p >Frist Name:<input tupe="text" name="Fristname"></p>
+        <p>Last Name:<input type="text" name="lastname"></p>
+        <p>Gender:<input type="radio" value="male" name="gender"
+        checked>male
+        <input type="radio" value="female" name="gender">female
+        
+            
+        
+        </p>
+        <p>E-mail:<input type="text" required name="E-mail"></p>
+        <p>Contact No:<input type="text" name="contactNo"></p>
+       <p>message:<br>
+    <textarea rows="10" cols="40" name="message"
+    placeholder="write somthing"></textarea>
+    </p>
+    <input type="submit" value="Send">
+</form>
+</div>
+
+
+</div>
+
+<script>
+    var str=new String("Kindely fill your details !!");
+    document.write(str.fontcolor ("black"));
+    alert(str.fontcolor ("black"));
+
+</script>
+    
+    
+    <footer style="color: cadetblue;
+      margin-top:10px">
+    <p>&copy;Sudhir Shah</p>
+    </footer>
+</html>
